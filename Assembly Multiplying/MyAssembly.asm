@@ -13,6 +13,7 @@ doit proc
 
 	mov eax, 8
 	mov ebx, 4
+	;mul eax, ebx	; syntacs error: mul only needs 1 argument
 	mul ebx
 
 	; the went bought. some I and, food to store	; wrong syntacs, semantics, parsing
