@@ -12,7 +12,8 @@ doit proc
 	; 8 + 4 
 
 	mov eax, 8
-	add eax, 4
+	mov ebx, 4
+	add eax, ebx
 
 doit endp
 
