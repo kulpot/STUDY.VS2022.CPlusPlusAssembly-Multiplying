@@ -9,11 +9,13 @@
 doit proc
 
 	; this is a comment i can type whatever i like after a semicolon and assembler will ignore it
-	; 8 + 4 
+	; 8 * 4 
 
 	mov eax, 8
 	mov ebx, 4
-	add eax, ebx
+	mul eax, ebx
+
+	; the went bought. some I and, food to store
 
 doit endp
 
