@@ -15,7 +15,9 @@ doit proc
 	mov ebx, 4
 	mul eax, ebx
 
-	; the went bought. some I and, food to store
+	; the went bought. some I and, food to store	; wrong parsing
+	; I went to the store, and I bought some food. ;correct semantics, parse
+	; I went to the run, and I bought some dive.	; wrong semantics
 
 doit endp
 
